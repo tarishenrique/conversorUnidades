@@ -1,0 +1,52 @@
+# Compiled Object files
+*.o
+
+# Precompiled Headers
+*.gch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.out
+*.exe
+
+# Debug files
+*.dSYM/
+*.pdb
+*.idb
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# IDE Specific - CLion (JetBrains)
+.idea/
+cmake-build-*/
+
+# IDE Specific - Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
