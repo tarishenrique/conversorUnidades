@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-// #include "comprimento.h"
-// #include "massa.h"
+ #include "comprimento.h"
+ // #include "massa.h"
 // #include "volume.h"
 // #include "temperatura.h"
 // #include "velocidade.h"
@@ -36,9 +36,9 @@ int main() {
             // case 1:
             //     converterTemperatura();
             //     break;
-            // case 2:
-            //     converterComprimento();
-            //     break;
+             case 2:
+                 converterComprimento();
+                 break;
             // case 3:
             //     converterVelocidade();
             //     break;

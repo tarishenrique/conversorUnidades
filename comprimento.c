@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "comprimento.h"
 
 void converterComprimento() {
     double valor, resultado;
@@ -47,7 +48,3 @@ void converterComprimento() {
     }
 }
 
-int main() {
-    converterComprimento();
-    return 0;
-}
