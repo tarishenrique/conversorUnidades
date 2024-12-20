@@ -6,7 +6,7 @@
 // #include "temperatura.h"
 // #include "velocidade.h"
 // #include "potencia.h"
-// #include "area.h"
+#include "area.h"
 // #include "tempo.h"
 #include "dados.h"
 
@@ -54,9 +54,9 @@ int main() {
             // case 7:
             //     converterMassa();
             //     break;
-            case 8:
-                converterDados();
-                break;
+            // case 8:
+            //     converterDados();
+            //     break;
             // case 9:
             //     converterPotencia();
             //     break;
