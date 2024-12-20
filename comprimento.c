@@ -46,8 +46,3 @@ void converterComprimento() {
             printf("Opção inválida!\n\n");
     }
 }
-
-int main() {
-    converterComprimento();
-    return 0;
-}
