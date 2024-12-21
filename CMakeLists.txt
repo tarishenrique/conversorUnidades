@@ -8,4 +8,6 @@ include_directories(.)
 add_executable(conversorUnidades
         dados.c
         dados.h
+        comprimento.c
+        comprimento.h
         main.c)
