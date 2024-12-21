@@ -1,18 +1,6 @@
 #include <stdio.h>
 #include "area.h"
 
-// Tipagem das conversoes
-typedef enum
-{
-    CENTIMETRO_QUADRADO, // centimetro quadrado
-    METRO_QUADRADO,      // metro quadrado
-    KILOMETRO_QUADRADO,  // quilômetro quadrado
-    HECTARE,             // hectare
-    ACRE,                // acre
-    PE_QUADRADO,         // pé quadrado
-    POLEGADA_QUADRADA    // polegada quadrada
-} UnidadeArea;
-
 UnidadeArea unidades[] = {
     CENTIMETRO_QUADRADO,
     METRO_QUADRADO,
@@ -27,7 +15,7 @@ UnidadeArea unidades[] = {
 void displayValoresArea()
 {
     printf("Conversao de unidades de area iniciado:\n\n");
-    printf("Código do TIPO das Unidades de conversão:\n");
+    printf("Codigo do TIPO das Unidades de conversao:\n");
     printf("0 = CENTIMETRO_QUADRADO\n");
     printf("1 = METRO_QUADRADO\n");
     printf("2 = KILOMETRO_QUADRADO\n");
@@ -114,5 +102,5 @@ void converterArea()
 
     // Mostra ao usuario o resultado da conversão
     printf("\nO valor foi convertido de X para Y:");
-    printf("Novo Valor = %.2f \n", newValor);
+    printf("Novo Valor = %.2f \n\n", newValor);
 }
