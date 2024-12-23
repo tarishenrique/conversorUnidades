@@ -6,7 +6,7 @@ Para compilar o projeto, siga os passos abaixo:
 2. Utilize o comando a seguir para compilar os arquivos principais:
 
    ```bash
-   gcc main.c dados.c -o conversor
+   gcc main.c comprimento.c volume.c -o conversor
    ```
 
 3. Adicionece os demais arquivos .c a compilação a medida que forem criados
