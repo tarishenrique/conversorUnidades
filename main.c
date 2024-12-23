@@ -45,9 +45,9 @@ int main() {
             // case 4:
             //     converterTempo();
             //     break;
-            // case 5:
-            //     converterArea();
-            //     break;
+            case 5:
+                converterArea();
+                break;
             // case 6:
             //     converterVolume();
             //     break;
