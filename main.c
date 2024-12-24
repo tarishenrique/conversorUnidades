@@ -57,9 +57,9 @@ int main() {
             case 8:
                 converterDados();
                 break;
-            // case 9:
-            //     converterPotencia();
-            //     break;
+            case 9:
+                converterPotencia();
+                break;
             case 0:
                 printf("Encerrando o programa.\n");
                 break;

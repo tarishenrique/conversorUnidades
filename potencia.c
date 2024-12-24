@@ -53,7 +53,7 @@ printf("\n---------------------------------------------\n|\t    RESULTADO DA CON
 }
 
 
-int main()
+void converterPotencia()
 {
 while (1==1)
 {
@@ -103,11 +103,9 @@ while (1==1)
     default:
 
             printf("Numero invalido!!\n");
+            return; // Sai da função e retorna ao main
         break;
     }
 }
-return 0;
 
 }
-
-
