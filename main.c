@@ -20,7 +20,7 @@ void exibirMenu() {
     printf("6. Unidades de volume - Hendrick\n");
     printf("7. Unidades de massa - Rayane\n");
     printf("8. Dados (Bits, Bytes, etc.) - Taris\n");
-    printf("9. Potencia (Watts, kW, cavalos-vapor)\n");
+    printf("9. Potencia (Watts, kW, cavalos-vapor) - Canario\n");
     printf("0. Sair\n");
     printf("Escolha: ");
 }
@@ -54,12 +54,12 @@ int main() {
             // case 7:
             //     converterMassa();
             //     break;
-            // case 8:
-            //     converterDados();
-            //     break;
-            // case 9:
-            //     converterPotencia();
-            //     break;
+            case 8:
+                converterDados();
+                break;
+            case 9:
+                converterPotencia();
+                break;
             case 0:
                 printf("Encerrando o programa.\n");
                 break;
