@@ -5,8 +5,8 @@
 // #include "volume.h"
 // #include "temperatura.h"
 // #include "velocidade.h"
-#include "potencia.h"
-// #include "area.h"
+// #include "potencia.h"
+#include "area.h"
 // #include "tempo.h"
 #include "dados.h"
 
@@ -45,9 +45,9 @@ int main() {
             // case 4:
             //     converterTempo();
             //     break;
-            // case 5:
-            //     converterArea();
-            //     break;
+            case 5:
+                converterArea();
+                break;
             // case 6:
             //     converterVolume();
             //     break;
