@@ -28,7 +28,7 @@ double metro_cubico_para_mililitro(double metro_cubico) {
 // Interface do usuário
 void exibir_menu() {
     printf("===================================\n");
-    printf("      CONVERSOR DE UNIDADES\n");
+    printf("      CONVERSOR DE VOLUME\n");
     printf("===================================\n");
     printf("Escolha uma opcao:\n");
     printf("1. Litro -> Mililitro\n");
@@ -43,7 +43,7 @@ void exibir_menu() {
 }
 
 // Função principal
-int main() {
+void converterVolume() {
     int opcao;
     double valor, resultado;
     char continuar;

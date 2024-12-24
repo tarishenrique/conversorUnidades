@@ -2,7 +2,7 @@
 #include <stdlib.h>
  #include "comprimento.h"
  // #include "massa.h"
-// #include "volume.h"
+#include "volume.h"
 // #include "temperatura.h"
 // #include "velocidade.h"
 // #include "potencia.h"
@@ -48,9 +48,9 @@ int main() {
             case 5:
                 converterArea();
                 break;
-            // case 6:
-            //     converterVolume();
-            //     break;
+            case 6:
+                 converterVolume();
+                 break;
             // case 7:
             //     converterMassa();
             //     break;
