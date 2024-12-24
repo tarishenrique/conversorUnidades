@@ -11,11 +11,15 @@ set(CMAKE_C_STANDARD 11)
 set(SOURCES
         dados.c
         comprimento.c
+        potencia.c
+        area.c
         main.c)
 
 set(HEADERS
         dados.h
-        comprimento.h)
+        comprimento.h
+        potencia.h
+        area.h)
 
 add_executable(conversorUnidades ${SOURCES} ${HEADERS})
 

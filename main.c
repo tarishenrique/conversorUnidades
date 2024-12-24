@@ -5,7 +5,7 @@
 // #include "volume.h"
 // #include "temperatura.h"
 // #include "velocidade.h"
-// #include "potencia.h"
+#include "potencia.h"
 #include "area.h"
 // #include "tempo.h"
 #include "dados.h"
