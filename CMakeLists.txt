@@ -13,12 +13,14 @@ set(SOURCES
         comprimento.c
         potencia.c
         area.c
+        volume.c
         main.c)
 
 set(HEADERS
         dados.h
         comprimento.h
         potencia.h
+        volume.h
         area.h)
 
 add_executable(conversorUnidades ${SOURCES} ${HEADERS})
