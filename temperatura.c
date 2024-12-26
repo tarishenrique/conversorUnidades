@@ -31,7 +31,7 @@ double fahrenheit_para_kelvin(double fahrenheit) {
     return celsius_para_kelvin(fahrenheit_para_celsius(fahrenheit));
 }
 
-int main() {
+void converterTemperatura() {
     int opcao;
     double temperatura, resultado;
 //Imprime a tela de opções:
@@ -46,26 +46,26 @@ int main() {
 //Trata a situação do usuário inserir uma opção inválida
     if (scanf("%d", &opcao) != 1 || opcao < 1 || opcao > 6) {
         printf("Erro: Opção inválida. Por favor, insira um número entre 1 e 6.\n");
-        return 1;
+        return ;
     }
 //Trata a opção caso o usuário insira qualquer outro valor
 //que não seja um valor de temperatura váldia
     printf("Digite a temperatura: ");
     if (scanf("%lf", &temperatura) != 1) {
         printf("Erro: Entrada inválida para temperatura. Por favor, insira um número válido.\n");
-        return 1;
+        return ;
     }
 //Tratamento de erro para evitar que digitem uma temperatura abaixo
 //do zero absoluto em Kelvin, o que estaria fisicamente errado.
     if ((opcao == 3 || opcao == 4) && temperatura < ZERO_ABSOLUTO_K) {
         printf("Erro: Não existe temperatura abaixo do zero absoluto (0 K, -273.15 °C, -459.67 °F).\n");
-        return 1;
+        return ;
     } else if ((opcao == 1 || opcao == 2) && temperatura < ZERO_ABSOLUTO_C) {
         printf("Erro: Não existe temperatura abaixo do zero absoluto (0 K, -273.15 °C, -459.67 °F).\n");
-        return 1;
+        return ;
     } else if ((opcao == 5 || opcao == 6) && temperatura < ZERO_ABSOLUTO_F) {
         printf("Erro: Não existe temperatura abaixo do zero absoluto (0 K, -273.15 °C, -459.67 °F).\n");
-        return 1;
+        return ;
     }
 //Exibe o resultado final com o cálculo
     switch (opcao) {
@@ -95,7 +95,7 @@ int main() {
             break;
     }
 
-    return 0;
+    return ;
 }
 
 //Autor: Emerson Novais Oliveira

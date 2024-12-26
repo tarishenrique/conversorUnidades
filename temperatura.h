@@ -7,6 +7,7 @@ double kelvin_para_celsius(double kelvin);
 double kelvin_para_fahrenheit(double kelvin);
 double fahrenheit_para_celsius(double fahrenheit);
 double fahrenheit_para_kelvin(double fahrenheit);
+void converterTemperatura();
 
 #endif
 //Autor: Emerson Novais Oliveira
