@@ -3,7 +3,7 @@
  #include "comprimento.h"
  // #include "massa.h"
 #include "volume.h"
-// #include "temperatura.h"
+#include "temperatura.h"
 // #include "velocidade.h"
 #include "potencia.h"
 #include "area.h"
@@ -33,9 +33,9 @@ int main() {
         scanf("%d", &opcao);
 
         switch (opcao) {
-            // case 1:
-            //     converterTemperatura();
-            //     break;
+            case 1:
+                converterTemperatura();
+                break;
              case 2:
                  converterComprimento();
                  break;
