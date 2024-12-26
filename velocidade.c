@@ -38,7 +38,7 @@ void display_menu() {
     printf("0. Sair\n");
 }
 //Programa
-int main() {
+void converterVelocidade() {
     int opcao;
     float valor, resultado;
 
@@ -86,5 +86,5 @@ int main() {
         }
     } while (opcao != 0);
 
-    return 0;
+    return;
 }

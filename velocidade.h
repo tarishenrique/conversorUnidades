@@ -15,6 +15,8 @@ float mph_to_kmh(float mph);
 float mph_to_ms(float mph);
 
 void display_menu();
+
+void converterVelocidade();
   
 
 #endif
