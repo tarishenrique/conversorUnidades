@@ -1,9 +1,9 @@
 # Como utilizar o Sistema para realizar as conversões
 
 1. Unidades de temperatura - Emerson
-   1. Passo 1
-   1. Passo 2
-   1. Passo 3
+   1. O programa de conversão de temperatura realiza a conversão entre as mais diferentes escalas possíveis (Celsius, Fahrenheit e Kelvin). Permite a conversão entre qualquer uma delas e ainda exibe o resultado da conversão na tela;
+   2. Para converter, o usuário deve digitar uma tecla no menu correspondente as escalas a serem convertidas. Após inserir os dados, o programa exibe na tela os valores convertidos e ajustados;
+   3. O programa previne e trata o uso incorreto, como a escolha de um item não correspondente no menu também que temperaturas abaixo do zero absoluto (escala Kelvin) sejam escolhidas em qualquer uma das outras escalas, o que estaria fisicamente errado.
 1. Unidades de comprimento - Matheus
    1. Passo 1
    1. Passo 2
