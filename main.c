@@ -4,7 +4,7 @@
  // #include "massa.h"
 #include "volume.h"
 #include "temperatura.h"
-// #include "velocidade.h"
+#include "velocidade.h"
 #include "potencia.h"
 #include "area.h"
 // #include "tempo.h"
@@ -39,9 +39,9 @@ int main() {
              case 2:
                  converterComprimento();
                  break;
-            // case 3:
-            //     converterVelocidade();
-            //     break;
+            case 3:
+                converterVelocidade();
+                break;
             // case 4:
             //     converterTempo();
             //     break;
