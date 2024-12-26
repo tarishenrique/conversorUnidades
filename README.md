@@ -1,3 +1,42 @@
+# Como utilizar o Sistema para realizar as conversões
+
+1. Unidades de temperatura - Emerson
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Unidades de comprimento - Matheus
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Unidades de velocidade - Ane
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Unidades de tempo - Thiago
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Unidades de area - Ian
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Unidades de volume - Hendrick
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Unidades de massa - Rayane
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Dados (Bits, Bytes, etc.) - Taris
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+1. Potencia (Watts, kW, cavalos-vapor) - Canario
+   1. Passo 1
+   1. Passo 2
+   1. Passo 3
+
 # Como Compilar
 
 Para compilar o projeto, siga os passos abaixo:

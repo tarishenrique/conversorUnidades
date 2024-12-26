@@ -14,6 +14,7 @@ set(SOURCES
         potencia.c
         area.c
         volume.c
+        temperatura.c
         main.c)
 
 set(HEADERS
@@ -21,7 +22,8 @@ set(HEADERS
         comprimento.h
         potencia.h
         volume.h
-        area.h)
+        area.h
+        temperatura.h)
 
 add_executable(conversorUnidades ${SOURCES} ${HEADERS})
 
