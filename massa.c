@@ -6,7 +6,7 @@ void converterMassa() {
     double valor, resultado;
     int opcao;
 
-    while (1) {  // Loop contínuo até uma opção válida ser selecionada
+    while (1) {  
         printf("Conversao de unidades de massa:\n");
         printf("1. Gramas para Quilogramas (kg)\n");
         printf("2. Gramas para Toneladas\n");
@@ -16,21 +16,21 @@ void converterMassa() {
         printf("6. Toneladas para Quilogramas (kg)\n");
         printf("Escolha a conversao: ");
         
-        if (scanf("%d", &opcao) != 1) {  // Verifica se a entrada é válida
+        if (scanf("%d", &opcao) != 1) {  
             printf("Entrada inválida! Tente novamente.\n\n");
-            while (getchar() != '\n'); // Limpa o buffer de entrada
+            while (getchar() != '\n'); 
             continue;
         }
 
         if (opcao >= 1 && opcao <= 6) {  // Verifica se a opção está no intervalo válido
             printf("Digite o valor a ser convertido: ");
-            if (scanf("%lf", &valor) != 1) {  // Verifica se o valor é válido
+            if (scanf("%lf", &valor) != 1) {  
                 printf("Entrada inválida! Tente novamente.\n\n");
-                while (getchar() != '\n'); // Limpa o buffer de entrada
+                while (getchar() != '\n'); 
                 continue;
             }
 
-            // Realiza a conversão com base na opção
+            
             switch (opcao) {
                 case 1:
                     resultado = valor / 1000;
@@ -57,7 +57,7 @@ void converterMassa() {
                     printf("%.2f toneladas = %.3f kg\n\n", valor, resultado);
                     break;
             }
-            break;  // Sai do loop após uma conversão válida
+            break;  
         } else {
             printf("Opção inválida! Tente novamente.\n\n");
         }
