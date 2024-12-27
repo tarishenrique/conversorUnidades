@@ -17,9 +17,9 @@
    1. Passo 2
    1. Passo 3
 1. Unidades de area - Ian
-   1. Passo 1
-   1. Passo 2
-   1. Passo 3
+   1. Primeiro Digite o valor a ser convertido
+   1. Digite o codigo correspondente ao tipo de unidade original de sua area
+   1. Digite o codigo do tipo a ser convertido
 1. Unidades de volume - Hendrick
    1. Selecione a opção 6 no menu inicial do Sistema
    1. Escolha o tipo de conversão desejada (Ex. 5. Metro cubico -> Litro)
