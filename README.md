@@ -5,9 +5,19 @@
    1. Passo 2
    1. Passo 3
 1. Unidades de comprimento - Matheus
-   1. Passo 1
-   1. Passo 2
-   1. Passo 3
+
+Passo 1:   Selecione a opção no menu inicial do sistema:
+Escolha o tipo de conversão desejada:
+Exemplo: "1. Metros para Centímetros".
+Digite o valor que deseja converter:
+
+Passo 2: Insira o valor numérico que será convertido.
+Exemplo: "5 metros".
+
+Passo 3: Visualize o resultado na tela:
+O sistema mostrará a conversão realizada.
+Exemplo: "5.00 metros = 500.00 centímetros".
+
 1. Unidades de velocidade - Ane
    1. Passo 1
    1. Passo 2
