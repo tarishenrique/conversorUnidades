@@ -35,7 +35,7 @@
    1. Selecione a opção 8 no menu inicial do Sistema
    1. Escolha o tipo de conversão desejada (Ex. 7. Gigabytes para Megabytes)
    1. Digite o valor que deseja converter e o sistema mostrará o valor final convertido
-1. 1. Potencia (Watts, kW, cavalos-vapor) - Canario
+1. Potencia (Watts, kW, cavalos-vapor) - Canario
    1. Passo 1:
    Escolha o numero que corresponda ao conversor de potencia,
 
