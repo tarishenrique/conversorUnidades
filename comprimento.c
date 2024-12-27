@@ -15,7 +15,7 @@ void converterComprimento() {
     printf("Escolha a conversão: ");
     scanf("%d", &opcao);
 
-    printf("Digite o valor a ser convertido: ");
+    printf("Atenção, Digite o valor a ser convertido: ");
     scanf("%lf", &valor);
 
     switch (opcao) {
