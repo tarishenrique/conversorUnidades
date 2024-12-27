@@ -24,7 +24,7 @@
    1. Passo 1
    1. Passo 2
    1. Passo 3
-7. Unidades de massa - Rayane
+1. Unidades de massa - Rayane
    1. Passo 1
       Selecione a opção número 7 no menu inicial do sistema.
    1. Passo 2
