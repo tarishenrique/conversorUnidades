@@ -19,9 +19,9 @@ O sistema mostrará a conversão realizada.
 Exemplo: "5.00 metros = 500.00 centímetros".
 
 1. Unidades de velocidade - Ane
-   1. Passo 1
-   1. Passo 2
-   1. Passo 3
+   1. Passo 1: Digite a opção 3 para selecionar a unidade de velocidade.
+   1. Passo 2: Digite a opção de qual conversão deseja fazer ou digite 0 para encerrar.
+   1. Passo 3: Digite o valor que deseja converter, depois disso irá exibir o resultado da conversão.
 1. Unidades de tempo - Thiago
    1. Passo 1
    1. Passo 2
