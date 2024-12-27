@@ -21,9 +21,9 @@
    1. Passo 2
    1. Passo 3
 1. Unidades de volume - Hendrick
-   1. Passo 1
-   1. Passo 2
-   1. Passo 3
+   1. Selecione a opção 6 no menu inicial do Sistema
+   1. Escolha o tipo de conversão desejada (Ex. 5. Metro cubico -> Litro)
+   1. Digite o valor que deseja converter e o sistema mostrará o resultado da conversão
 1. Unidades de massa - Rayane
    1. Passo 1
    1. Passo 2
