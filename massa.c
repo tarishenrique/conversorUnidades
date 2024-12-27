@@ -22,7 +22,7 @@ void converterMassa() {
             continue;
         }
 
-        if (opcao >= 1 && opcao <= 6) {  // Verifica se a opção está no intervalo válido
+        if (opcao >= 1 && opcao <= 6) {  
             printf("Digite o valor a ser convertido: ");
             if (scanf("%lf", &valor) != 1) {  
                 printf("Entrada inválida! Tente novamente.\n\n");
