@@ -26,8 +26,11 @@
    1. Passo 3
 1. Unidades de massa - Rayane
    1. Passo 1
+      Selecione a opção número 7 no menu inicial do sistema.
    1. Passo 2
+      Escolha o tipo de conversão desejada (Ex: 1. Gramas para Quilogramas(kg)).
    1. Passo 3
+      Digite o valor desejado para conversão e o sistema mostrará o valor final convertido.
 1. Dados (Bits, Bytes, etc.) - Taris
    1. Selecione a opção 8 no menu inicial do Sistema
    1. Escolha o tipo de conversão desejada (Ex. 7. Gigabytes para Megabytes)
