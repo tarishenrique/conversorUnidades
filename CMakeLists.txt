@@ -9,21 +9,27 @@ project(conversorUnidades
 set(CMAKE_C_STANDARD 11)
 
 set(SOURCES
-        dados.c
-        comprimento.c
-        potencia.c
         area.c
-        volume.c
+        comprimento.c
+        dados.c
+        massa.c
+        potencia.c
         temperatura.c
+        tempo.c
+        velocidade.c
+        volume.c
         main.c)
 
 set(HEADERS
-        dados.h
-        comprimento.h
-        potencia.h
-        volume.h
         area.h
-        temperatura.h)
+        comprimento.h
+        dados.h
+        massa.h
+        potencia.h
+        temperatura.h
+        tempo.h
+        velocidade.h
+        volume.h)
 
 add_executable(conversorUnidades ${SOURCES} ${HEADERS})
 
