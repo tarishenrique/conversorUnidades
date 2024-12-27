@@ -32,10 +32,22 @@
    1. Selecione a opção 8 no menu inicial do Sistema
    1. Escolha o tipo de conversão desejada (Ex. 7. Gigabytes para Megabytes)
    1. Digite o valor que deseja converter e o sistema mostrará o valor final convertido
-1. Potencia (Watts, kW, cavalos-vapor) - Canario
-   1. Passo 1
-   1. Passo 2
-   1. Passo 3
+1. 1. Potencia (Watts, kW, cavalos-vapor) - Canario
+   1. Passo 1:
+   Escolha o numero que corresponda ao conversor de potencia,
+
+   Apos isso escolha a unidade de entrada:
+
+        O programa exibirá o menu com opções de unidades de potência (1 para WATTS, 2 para KWATTS, 3 para CAVALOS VAPOR).
+
+        Digite o número correspondente à unidade que deseja converter.
+
+    1. Passo 2: 
+    Digite o valor a ser convertido:
+
+        Insira o valor que você deseja converter na unidade selecionada.
+    1. Passo 3:
+    Veja os resultados:
 
 # Como Compilar
 
