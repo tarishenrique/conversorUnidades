@@ -12,7 +12,7 @@ void converterComprimento() {
     printf("4. Centímetros para Milímetros\n");
     printf("5. Milímetros para Metros\n");
     printf("6. Milímetros para Centímetros\n");
-    printf("Escolha a conversão: ");
+    printf("Escolha a sua conversão: ");
     scanf("%d", &opcao);
 
     printf("Atenção, Digite o valor a ser convertido: ");
