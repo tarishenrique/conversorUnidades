@@ -24,7 +24,7 @@ float segundos_para_minutos(float segundos) {
     return segundos / 60;
 }
 
-void display_menu() {
+void display_menu_velocidade() {
     printf("\nConversor de Unidades de Tempo\n");
     printf("Escolha uma opção:\n");
     printf("1. Horas para Minutos\n");
@@ -41,7 +41,7 @@ void converter_tempo() {
     float valor, resultado;
 
     do {
-        display_menu();
+        display_menu_velocidade();
         printf("\nDigite sua opção: ");
         scanf("%d", &opcao);
 
@@ -85,9 +85,4 @@ void converter_tempo() {
     } while (opcao != 0);
 
     return;
-}
-
-int main() {
-    converter_tempo();
-    return 0;
 }
