@@ -44,7 +44,7 @@ void converterMassa() {
             printf("%.2f toneladas = %.2f kg\n\n", valor, resultado);
             break;
         default:
-            printf("OpÃ§Ã£o invÃ¡lida!\n\n");
+            printf("Opção inválida!\n\n");
     }
 
 }
