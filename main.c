@@ -7,7 +7,7 @@
 #include "velocidade.h"
 #include "potencia.h"
 #include "area.h"
-// #include "tempo.h"
+#include "tempo.h"
 #include "dados.h"
 
 void exibirMenu() {
@@ -42,9 +42,9 @@ int main() {
             case 3:
                 converterVelocidade();
                 break;
-            // case 4:
-            //     converterTempo();
-            //     break;
+            case 4:
+                converter_tempo();
+                break;
             case 5:
                 converterArea();
                 break;
